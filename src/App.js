@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import ExShoe from './Ex_Shoe/ExShoe';
-import Layout from './baitapcode/Layout';
+import logo from "./logo.svg";
+import "./App.css";
+import ExShoe from "./Ex_Shoe/ExShoe";
+import Layout from "./baitapcode/Layout";
 
 function App() {
   return (
     <div className="App">
-     
-     <ExShoe></ExShoe>
-     {/* <Layout></Layout> */}
+      <ExShoe></ExShoe>
+      {/* <Layout></Layout> */}
     </div>
   );
 }
